@@ -88,12 +88,3 @@ for i in range(20000) :
 ##    print(i)
     if i % 50 == 0 :
         print(train_rmse())
-    
-##sess.run(train_step, feed_dict={x : batch1,
-##                                y_: batch2,
-##                                keep_prob : 0.5})
-
-##print(sess.run(train_step, feed_dict={x : batch1,
-##                                y_: batch2,
-##                                keep_prob : 0.5}))
-
